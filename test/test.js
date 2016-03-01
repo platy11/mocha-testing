@@ -12,4 +12,10 @@ describe('Array', function() {
       assert.equal(5, [1,2,3,4,5].length);
     });
   });
+  describe('#length', function () {
+    it('should return true', function () {
+      assert.equal(true, [1,2,3].length === 3);
+      assert.equal(false, [1,2,3,4,5].length === 4);
+    });
+  });
 });
