@@ -8,7 +8,7 @@ describe('Array', function() {
   });
   describe('#length', function () {
     it('should return the length', function () {
-      assert.equal(3, [1,2,3].length);
+      assert.equal(9, [1,2,3,4,5,6,7,8,9].length);
       assert.equal(5, [1,2,3,4,5].length);
     });
   });
